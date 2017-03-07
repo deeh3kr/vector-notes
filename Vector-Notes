@@ -1,0 +1,9 @@
+1. format: vector<data type> nameofVector
+2. myVector.push_back(value) ==> adds an element to the END of the vector (also resize it)
+3. myVector.at(index) ==> return element at the specified index number
+4. myvector.size() ==> returns an unsigned int equal to the number of elements
+5. myVector.begin() ==> read vector from first element (index 0)
+6. myVector.insert(myVector.begin() + integer, new value) ==> adds an element BEFORE specified index number
+7. myVector.erase(myVector.begin() + integer) ==> remove element AT specified index number
+8. myVector.clear() ==> remove all element in vector
+9. myVector.empty() ==> returns boolean value if whether vector is empty
